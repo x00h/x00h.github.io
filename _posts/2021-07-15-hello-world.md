@@ -2,6 +2,8 @@
 layout: post
 title: Hello World
 categories: [content, demo]
+tags: [coding, programming]
+permalink: /:title.html
 ---
 
 Hello and welcome. The only purpose of this post is to greet you when your site comes alive for the first time.  

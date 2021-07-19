@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Malware Analysis
+name: x00h
 
 # Short bio or description (displayed in the header)
-description: 
+description:
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /assets/image/avatar.png
@@ -23,7 +23,7 @@ url: https://x00h.github.io
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: ''
 
 # Navigation menu
 navigation_links:
@@ -38,12 +38,8 @@ navigation_links:
 
 # Footer icons
 footer_links:
-  - title: Feed
-    url: feed.xml
-    icon: fa fa-rss-square
-
   - title: Twitter
-    url: 
+    url:
     icon: fa fa-twitter-square
 
   - title: GitHub
@@ -71,7 +67,7 @@ kramdown:
 
 # Pagination
 paginate: 5
-paginate_path: "/page/:num/"
+paginate_path: '/page/:num/'
 
 # Set the Sass partials directory, as we're using @imports
 sass:
