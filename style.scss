@@ -10,6 +10,8 @@ html {
 body {
   background: $white;
   font-family: $sans-font-family;
+  // font-family: inherit;
+  // font-family: 'Courier New', Courier, monospace;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.66666666667;
@@ -44,7 +46,7 @@ figure,
 .container {
   flex: 1 0 auto;
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 850px;
   padding: 0 10px;
   width: 100%;
 }
@@ -98,9 +100,9 @@ a {
   color: $blue;
   text-decoration: none;
 
-  &:visited {
-    color: $purple;
-  }
+  // &:visited {
+  //   color: $purple;
+  // }
 
   &:hover {
     color: $blue;
@@ -211,9 +213,9 @@ span.inlineBlock {
     text-decoration: underline;
   }
 
-  .categories-button:visited {
-    color: inherit;
-  }
+  // .categories-button:visited {
+  //   color: inherit;
+  // }
 }
 
 .post-tags {
@@ -246,9 +248,9 @@ span.inlineBlock {
     text-decoration: underline;
   }
 
-  .tags-button:visited {
-    color: inherit;
-  }
+  // .tags-button:visited {
+  //   color: inherit;
+  // }
 }
 
 .share-post {
@@ -471,6 +473,7 @@ a[href^='#fnref:'] {
 .hidden,
 [hidden] {
   display: none !important;
+  visibility: hidden !important;
 }
 
 /*********************/
@@ -539,9 +542,9 @@ a[href^='#fnref:'] {
       color: $mahogany !important;
       text-decoration: none;
     }
-    &:visited {
-      color: inherit;
-    }
+    // &:visited {
+    //   color: inherit;
+    // }
   }
 }
 
@@ -577,9 +580,9 @@ nav {
       color: inherit;
       text-decoration: underline;
     }
-    &:visited {
-      color: inherit;
-    }
+    // &:visited {
+    //   color: inherit;
+    // }
     @include mobile {
       margin: 0 10px;
       color: $blue;
@@ -632,9 +635,9 @@ a.nav-menu-item:focus {
       text-decoration: none;
     }
 
-    &:visited {
-      color: $mahogany;
-    }
+    // &:visited {
+    //   color: $mahogany;
+    // }
 
     &:hover {
       color: $mahogany;
@@ -657,7 +660,7 @@ a.nav-menu-item:focus {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 30px 0;
   text-align: center;
 
   .social-icons {
@@ -676,7 +679,7 @@ footer {
 }
 
 .copyright {
-  font-size: 14px !important;
+  font-size: 17px !important;
 
   p {
     margin: 0;
